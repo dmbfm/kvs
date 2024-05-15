@@ -1,0 +1,10 @@
+[package]
+name = "kvs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+miniserde = "0.1.39"
+anyhow = "1.0.83"
+dirs = "5.0.1"
