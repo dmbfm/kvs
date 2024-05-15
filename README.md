@@ -3,6 +3,13 @@
 This is avery simple tool to store key-values. It is backed by a single json
 file stored in the user's application [data directory](https://docs.rs/dirs/latest/dirs/fn.data_local_dir.html).
 
+## Instalation
+```
+$ git clone https://github.com/dmbfm/kvs.git
+$ cd kvs
+$ cargo install --path . 
+```
+
 ## Usage
 
 Set a key-value pair:
